@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS fuel_system (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    plate VARCHAR(255) NOT NULL,
+    fuel_level FLOAT NOT NULL,
+    UNIQUE KEY (plate)
+);
